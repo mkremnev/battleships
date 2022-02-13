@@ -32,7 +32,8 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^6.0.0",
     "lint-staged": ">=10",
-    "prettier": "2.5.1"
+    "prettier": "2.5.1",
+    "sass": "^1.49.7"
   },
   "scripts": {
     "start": "react-scripts start",
