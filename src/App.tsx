@@ -1,7 +1,8 @@
 import React from 'react';
+import { Container } from './shared/components/layout/Container';
 
 function App() {
-  return <div className="App">App</div>;
+  return <Container>App</Container>;
 }
 
 export default App;
