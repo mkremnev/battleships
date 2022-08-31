@@ -20,10 +20,11 @@ module.exports = {
       },
     },
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', '@emotion'],
   rules: {
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'import/extensions': [2, 'never'],
     'import/prefer-default-export': 'off',
+    '@emotion/jsx-import': 'error',
   },
 };
